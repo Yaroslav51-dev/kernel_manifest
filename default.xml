@@ -6,7 +6,7 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" />
 
-  <project path="build" name="Yaroslav51_dev/android_kernel_build" remote="github" revision="android12-5.10-marble">
+  <project path="build" name="Yaroslav51-dev/android_kernel_build" remote="github" revision="android12-5.10-marble">
     <linkfile dest="build.sh" src="build-ak3.sh"/>
   </project>
   <project path="AnyKernel3" name="ghostrider-reborn/AnyKernel3" remote="github" revision="marble-gki" />
