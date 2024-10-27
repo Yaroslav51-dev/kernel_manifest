@@ -3,7 +3,7 @@
   <remote name="clo" fetch="https://git.codelinaro.org/clo/la" review="codelinaro.org"/>
   <remote name="github" fetch="https://github.com/"/>
   <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="8"/>
-  <project name="litylixx/android_kernel_build" path="kernel_platform/build" remote="github" revision="uvite-xiaomi-sm8450"/>
+  <project name="Yaroslav51-dev/kernel-build" path="build" remote="github" revision="main"/>
   <project name="pa-gr/android_kernel_prebuilts_build-tools" path="kernel_platform/prebuilts/kernel-build-tools" remote="github" revision="uvite-xiaomi-sm8450"/>
   <project name="pa-gr/android_kernel_xiaomi_sm8450" path="kernel_platform/xiaomi/sm8450" remote="github" revision="uvite"/>
   <project name="pa-gr/android_kernel_xiaomi_sm8450-devicetrees" path="kernel_platform/xiaomi/sm8450-devicetrees" remote="github" revision="uvite"/>
