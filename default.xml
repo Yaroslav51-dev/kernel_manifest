@@ -17,6 +17,6 @@
   <project name="pa-gr/android_kernel_xiaomi_sm8450-devicetrees" path="kernel_platform/xiaomi/sm8450-devicetrees" clone-depth="1" remote="github" revision="uvite"/>
   <project name="pa-gr/android_kernel_xiaomi_sm8450-modules" path="kernel_platform/xiaomi/sm8450-modules"  clone-depth="1" remote="github" revision="uvite"/>
   <project name="pa-gr/android_kernel_build" path="kernel_platform/build" remote="github"  clone-depth="1" revision="uvite-xiaomi-sm8450"/>
-  <project name="pa-gr/android_kernel_prebuilts_build-tools" path="kernel_platform/prebuilts/kernel-build-tools" remote="github" clone-depth="1" revision="uvite-xiaomi-sm8450"/>
+  <project name="pa-gr/android_kernel_prebuilts_build-tools" path="prebuilts/kernel-build-tools" remote="github" clone-depth="1" revision="uvite-xiaomi-sm8450"/>
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" clone-depth="1" />
 </manifest>
