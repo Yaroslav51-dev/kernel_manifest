@@ -4,19 +4,19 @@
   <remote  name="github" fetch="https://github.com/" />
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="8" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" />
-  <project path="AnyKernel3" name="ghostrider-reborn/AnyKernel3" remote="github" revision="marble-gki" />
-  <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" />
-  <project path="kernel/tests" name="kernel/tests" />
-  <project path="kernel/configs" name="kernel/configs" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android12-5.10" />
-  <project path="manifest" name="pa-gr/kernel_manifest" remote="github" revision="android12-5.10-marble" />
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" clone-depth="1" />
+  <project path="AnyKernel3" name="ghostrider-reborn/AnyKernel3" remote="github" revision="marble-gki" clone-depth="1" />
+  <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" clone-depth="1" />
+  <project path="kernel/tests" name="kernel/tests" clone-depth="1" />
+  <project path="kernel/configs" name="kernel/configs" clone-depth="1" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" clone-depth="1" revision="android12-5.10" />
+  <project path="manifest" name="pa-gr/kernel_manifest" remote="github" revision="android12-5.10-marble" clone-depth="1" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="android13-release" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
-  <project name="Yaroslav51-dev/android_kernel_xiaomi_sm8450" path="kernel_platform/xiaomi/sm8450" remote="github" revision="vauxite"/>
-  <project name="pa-gr/android_kernel_xiaomi_sm8450-devicetrees" path="kernel_platform/xiaomi/sm8450-devicetrees" remote="github" revision="uvite"/>
-  <project name="pa-gr/android_kernel_xiaomi_sm8450-modules" path="kernel_platform/xiaomi/sm8450-modules" remote="github" revision="uvite"/>
-  <project name="pa-gr/android_kernel_build" path="kernel_platform/build" remote="github" revision="uvite-xiaomi-sm8450"/>
-  <project name="pa-gr/android_kernel_prebuilts_build-tools" path="kernel_platform/prebuilts/kernel-build-tools" remote="github" revision="uvite-xiaomi-sm8450"/>
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1"clone-depth="1" />
+  <project name="Yaroslav51-dev/android_kernel_xiaomi_sm8450" path="kernel_platform/xiaomi/sm8450" remote="github" clone-depth="1" revision="vauxite"/>
+  <project name="pa-gr/android_kernel_xiaomi_sm8450-devicetrees" path="kernel_platform/xiaomi/sm8450-devicetrees" clone-depth="1" remote="github" revision="uvite"/>
+  <project name="pa-gr/android_kernel_xiaomi_sm8450-modules" path="kernel_platform/xiaomi/sm8450-modules"  clone-depth="1" remote="github" revision="uvite"/>
+  <project name="pa-gr/android_kernel_build" path="kernel_platform/build" remote="github"  clone-depth="1" revision="uvite-xiaomi-sm8450"/>
+  <project name="pa-gr/android_kernel_prebuilts_build-tools" path="kernel_platform/prebuilts/kernel-build-tools" remote="github" clone-depth="1" revision="uvite-xiaomi-sm8450"/>
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" clone-depth="1" />
 </manifest>
